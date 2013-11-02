@@ -6,14 +6,16 @@
 
 
 
-
+body {
+	background-color: $background-color;
+}
 
 
 .container {
 	width: 800px;
-	margin: 100px auto auto;
 	padding: 10px;
-	background-color: $background-color;
+	margin: auto;
+	background-color: $main-color;
 }
 
 h1 {
@@ -21,7 +23,17 @@ h1 {
 }
 
 p {
-	
+	color: $text-body-color;
 }
 
+.col3 {
+	columns: 100px 3;
+	-webkit-columns: 100px 3; /* Safari and Chrome */
+	-moz-columns: 100px 3; /* Firefox */
+}
+
+.featured-img {
+	column-span: all;
+	-webkit-column-span: all;
+}
 

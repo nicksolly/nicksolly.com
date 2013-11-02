@@ -340,13 +340,30 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/** Colours **/
-/***** TEXT COLORS ******/
+/** _colours.scss **/
+/***** TEXT COLORS *****/
+body {
+  background-color: #393939; }
+
 .container {
   width: 800px;
-  margin: 100px auto auto;
   padding: 10px;
-  background-color: red; }
+  margin: auto;
+  background-color: #ededed; }
 
 h1 {
-  color: #334444; }
+  color: #97003f; }
+
+p {
+  color: black; }
+
+.col3 {
+  columns: 100px 3;
+  -webkit-columns: 100px 3;
+  /* Safari and Chrome */
+  -moz-columns: 100px 3;
+  /* Firefox */ }
+
+.featured-img {
+  column-span: all;
+  -webkit-column-span: all; }
