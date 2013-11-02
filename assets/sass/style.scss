@@ -1,0 +1,27 @@
+
+/* style.scss */
+
+@import 'normalise';
+@import 'colors';
+
+
+
+
+
+
+.container {
+	width: 800px;
+	margin: 100px auto auto;
+	padding: 10px;
+	background-color: $background-color;
+}
+
+h1 {
+	color: $heading-color;
+}
+
+p {
+	
+}
+
+
